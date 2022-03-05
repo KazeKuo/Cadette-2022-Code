@@ -21,7 +21,7 @@ void turnRight(int duration) {
 }
 
 void turnLeft(int duration) {
-  move(M1Speed, M2speed, duration);
+  //move(M1Speed, M2speed, duration);
 }
 
 
