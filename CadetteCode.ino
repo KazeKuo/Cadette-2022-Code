@@ -31,7 +31,7 @@ void loop()
   int M2speed = 0;
   int duration = 0;
 
-  move(M1speed, M2speed,duration);
+  move(M1speed, M2speed, duration);
 
   
   
