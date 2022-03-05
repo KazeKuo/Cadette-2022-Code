@@ -8,7 +8,7 @@ void setup()
   motors.flipM2(true);
 }
 
-void goStraight(int M1Speed, int M2Speed, double duration) {
+void move(int M1Speed, int M2Speed, double duration) {
   motors.setSpeeds(M1Speed, M2Speed);
   delay(duration);
   motors.setSpeeds(0,0);
@@ -37,7 +37,7 @@ void loop()
   int M2speed = 0;
   int duration = 0;
 
-  goStraight(M1speed,M2speed,duration);
+  move(M1speed,M2speed,duration);
 
   
   
