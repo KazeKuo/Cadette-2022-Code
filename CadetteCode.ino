@@ -17,11 +17,11 @@ void move(int M1Speed, int M2Speed, int duration) {
 void turnRight(int duration) {
   int M1speed = 0;
   int M2speed = 0;
-  move(M1Speed, M2speed, duration);
+  move(M1speed, M2speed, duration);
 }
 
 void turnLeft(int duration) {
-  //move(M1Speed, M2speed, duration);
+  //move(M1speed, M2speed, duration);
 }
 
 
